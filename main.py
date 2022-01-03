@@ -22,6 +22,5 @@ except wikipedia.exceptions.DisambiguationError as e:
     print("Sorry, we could not find what you were searching for, instead try some suggestions given below.")
     print("*"*20)
     print(e.options)
-    if wikipedia.exceptions.PageError:
-        print("Sorry something went wrong :(")
+
        
